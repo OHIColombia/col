@@ -11,9 +11,9 @@ study_area:  Colombia
 git_owner:   OHI-Science
 git_repo:    col
 git_slug:    OHI-Science/col
-app_url:     http://ohi-science.nceas.ucsb.edu/col
+app_url:     https://ohi-science.shinyapps.io/col_app
 
-default_branch_scenario: subcountry2014/published
+default_branch_scenario: published/subcountry2014
 
 # Jekyll configuration
 
