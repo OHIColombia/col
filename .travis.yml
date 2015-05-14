@@ -4,8 +4,8 @@ branches:
   - draft
 env:
   global:
-  - default_branch_scenario="published/subcountry2014"
-  - study_area="Colombia"
+  - default_branch_scenario: "published/subcountry2014"
+  - study_area: "Colombia"
   - secure: ElGgpBD0PItxRCjCOe3a391CD+feayzBQzG8vosb62ZMDK6KVQpjINzis/l9L0bS8h05db/C39SNTNbEGuB7l5Y3YRQhgvnUkB0wxxXwzqhO+4Brz5M5R3ebt/ighnmQd3dZHZTs1j8xcGq/dK5nDZYvXvyKCStxg/ziltT7tQM=
 matrix:
   fast_finish: true

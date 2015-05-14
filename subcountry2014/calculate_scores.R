@@ -2,7 +2,7 @@
 suppressWarnings(require(ohicore))
 
 # set working directory to the scenario directory, ie containing conf and layers directories
-setwd('/Users/bbest/github/clip-n-ship/col/subcountry2014')
+setwd('~/github/col/subcountry2014')
 
 # load scenario configuration
 conf = Conf('conf')
