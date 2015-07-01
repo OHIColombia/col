@@ -21,6 +21,7 @@ apt_packages:
 - pandoc
 
 r_packages:
+- devtools
 - zoo
 - psych
 - tidyr
