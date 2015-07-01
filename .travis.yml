@@ -12,6 +12,8 @@ matrix:
 before_install:
 - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
 - curl -OL http://raw.github.com/OHI-Science/ohi-webapps/master/ohi-travis-functions.R
+- chmod 755 ./travis-tool.sh
+- ./travis-tool.sh bootstrap
 - git config --global user.email "lowndes@nceas.ucsb.edu"
 - git config --global user.name "Julia Lowndes"
 
