@@ -1,4 +1,4 @@
-language: c
+language: r
 branches:
   only:
   - draft
@@ -10,21 +10,23 @@ env:
 matrix:
   fast_finish: true
 before_install:
-- curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
 - curl -OL http://raw.github.com/OHI-Science/ohi-webapps/master/ohi-travis-functions.R
-- chmod 755 ./travis-tool.sh
-- ./travis-tool.sh bootstrap
-- sudo apt-get install pandoc
-install:
-- ./travis-tool.sh install_r zoo
-- ./travis-tool.sh install_r psych
-- ./travis-tool.sh install_r tidyr
-- ./travis-tool.sh install_r brew
-- ./travis-tool.sh install_r rmarkdown
-- ./travis-tool.sh install_r httr
-- ./travis-tool.sh install_r git2r
-- ./travis-tool.sh install_github ohi-science/rCharts
-- ./travis-tool.sh install_github ohi-science/ohicore@dev
+
+apt_packages:
+- pandoc
+
+r_packages:
+- zoo
+- psych
+- tidyr
+- brew
+- rmarkdown
+- httr
+- git2r
+
+r_github_packages:
+- ohi-science/rCharts
+- ohi-science/ohicore@dev
 - git config --global user.email "lowndes@nceas.ucsb.edu"
 - git config --global user.name "Julia Lowndes"
 script:
