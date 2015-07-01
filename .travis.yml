@@ -27,8 +27,7 @@ r_packages:
 r_github_packages:
 - ohi-science/rCharts
 - ohi-science/ohicore@dev
-- git config --global user.email "lowndes@nceas.ucsb.edu"
-- git config --global user.name "Julia Lowndes"
+
 script:
 - Rscript ohi-travis-functions.R calculate_scores && Rscript ohi-travis-functions.R
   create_results && Rscript ohi-travis-functions.R push_branch draft && Rscript ohi-travis-functions.R
