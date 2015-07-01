@@ -10,6 +10,7 @@ env:
 matrix:
   fast_finish: true
 before_install:
+- curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
 - curl -OL http://raw.github.com/OHI-Science/ohi-webapps/master/ohi-travis-functions.R
 - git config --global user.email "lowndes@nceas.ucsb.edu"
 - git config --global user.name "Julia Lowndes"
@@ -30,6 +31,14 @@ r_github_packages:
 - ohi-science/rCharts
 - ohi-science/ohicore@dev
 
+script:
+# execute as a sequence, so if any fail, none of the subsequent commands are executed
+- Rscript ohi-travis-functions.R calculate_scores &&
+  Rscript ohi-travis-functions.R create_results &&
+  Rscript ohi-travis-functions.R push_branch draft &&
+  Rscript ohi-travis-functions.R push_branch published &&
+  Rscript ohi-travis-functions.R create_pages
+  
 after_failure:
 - ./travis-tool.sh dump_logs
 notifications:
