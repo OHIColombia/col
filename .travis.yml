@@ -30,10 +30,6 @@ r_github_packages:
 - ohi-science/rCharts
 - ohi-science/ohicore@dev
 
-script:
-- Rscript ohi-travis-functions.R calculate_scores && Rscript ohi-travis-functions.R
-  create_results && Rscript ohi-travis-functions.R push_branch draft && Rscript ohi-travis-functions.R
-  push_branch published && Rscript ohi-travis-functions.R create_pages
 after_failure:
 - ./travis-tool.sh dump_logs
 notifications:
