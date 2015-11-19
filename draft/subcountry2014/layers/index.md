@@ -48,7 +48,7 @@ Fisheries management effectiveness and opportunity
 <p>Data sources:</p>
 
 <ul>
-<li>Mora, C., Myers, R.A., Coll, M., Libralato, S., Pitcher, T.J., Sumaila, R.U., Worm, B. (2009). <strong>Management Effectiveness of the WorldÃ¯Â¿Â•s Marine Fisheries</strong>. <em>PLoS Biol</em>, 7(6), e1000131. <a href="http://dx.doi.org/10.1371/journal.pbio.1000131">doi:10.1371/journal.pbio.1000131</a></li>
+<li>Mora, C., Myers, R.A., Coll, M., Libralato, S., Pitcher, T.J., Sumaila, R.U., Worm, B. (2009). <strong>Management Effectiveness of the Worldí¿ŒËŒ<b4>s Marine Fisheries</strong>. <em>PLoS Biol</em>, 7(6), e1000131. <a href="http://dx.doi.org/10.1371/journal.pbio.1000131">doi:10.1371/journal.pbio.1000131</a></li>
 </ul>
 
 
@@ -61,7 +61,7 @@ Purchasing power parity as a proxy for subsistence fishing need, by region
 |-------------------|----------------------------------------------------------------------|
 | filename          | ao_need_gl2014.csv                                                   |
 | value units       | value                                                      |
-| value range       | 0.06697074 to 0.09389171                               |
+| value range       | 0.0669707 to 0.0938917                               |
 | global extraction | equal: global purchasing power parity information was applied equally to all regions. |
 
 <p>The per capita purchasing power parity (PPP) adjusted gross domestic product (GDP): GDPpcPPP.</p>
@@ -103,7 +103,7 @@ Sea level rise
 |-------------------|----------------------------------------------------------------------|
 | filename          | cc_slr_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.1562166 to 0.1562166                               |
+| value range       | 0.156217 to 0.156217                               |
 | global extraction | raster | equal:  |
 
 <p>Modeled sea level rise (Nicholls and Cazenave 2010).</p>
@@ -125,7 +125,7 @@ Sea surface temperature (SST) anomalies
 |-------------------|----------------------------------------------------------------------|
 | filename          | cc_sst_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.1356544 to 0.1356544                               |
+| value range       | 0.135654 to 0.135654                               |
 | global extraction | raster | equal:  |
 
 <p>Modeled sea surface temperature (Halpern et al. 2008) based on temperature anomolies provided by GHRSST and the US National Oceanographic Data Center.</p>
@@ -148,7 +148,7 @@ UV radiation
 |-------------------|----------------------------------------------------------------------|
 | filename          | cc_uv_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.7594695 to 0.7594695                               |
+| value range       | 0.75947 to 0.75947                               |
 | global extraction | raster | equal:  |
 
 <p>Modeled UV radiation (Halpern et al. 2008) based on Erythemal UV Irradiance data provided by GES DISC.</p>
@@ -191,7 +191,7 @@ Habitat extent * rank, per Coastal Protection habitats
 |-------------------|----------------------------------------------------------------------|
 | filename          | cp_habitat_extent_rank_gl2014.csv                                                   |
 | value units       | rank                                                      |
-| value range       | 372.005 to 3531.428                               |
+| value range       | 372.005 to 3531.43                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
 <p>Habitat extent * habitat rank for Coastal Protection habitats: coral, mangrove offshore 1km, mangrove inland 1km, saltmarsh, seaice_shoreline and seagrass</p>
@@ -206,7 +206,7 @@ Habitat extent * rank, per Carbon Storage habitats
 |-------------------|----------------------------------------------------------------------|
 | filename          | cs_habitat_extent_sc2014-area-offshore3nm.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 12.87614 to 411.9839                               |
+| value range       | 15.1113 to 250.047                               |
 | global extraction | area_offshore_3nm: global habitat extent was applied to each region after weighting by each region's offshore area to 3nm.  |
 
 <p>Habitat extent * habitat rank for Carbon Storage habitats: mangrove, saltmarsh and seagrass</p>
@@ -221,7 +221,7 @@ Coastal human population as a proxy for trend in trash
 |-------------------|----------------------------------------------------------------------|
 | filename          | cw_coastalpopn_trend_gl2014.csv                                                   |
 | value units       | trend score                                                      |
-| value range       | 0.06416784 to 0.06416784                               |
+| value range       | 0.0641678 to 0.0641678                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
 <p>Coastal population, defined as the total population inland of 25 miles, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.</p>
@@ -243,7 +243,7 @@ Fertilizer consumption as a proxy for trend in nutrient pollution
 |-------------------|----------------------------------------------------------------------|
 | filename          | cw_fertilizer_trend_gl2014.csv                                                   |
 | value units       | trend score                                                      |
-| value range       | -0.2080157 to -0.2080157                               |
+| value range       | -0.208016 to -0.208016                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
 <p>Statistics on fertilizer consumption from the Food and Agricultural Organization (FAO). </p>
@@ -251,7 +251,7 @@ Fertilizer consumption as a proxy for trend in nutrient pollution
 <p>Data sources:</p>
 
 <ul>
-<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAOÃ¢Â€Â™s statistical database FAOSTAT</a>.</li>
+<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAOí¢Œ<f3><8c><bb>s statistical database FAOSTAT</a>.</li>
 </ul>
 
 
@@ -264,7 +264,7 @@ Trends in access to improved sanitation as a proxy for pathogen pollution trend
 |-------------------|----------------------------------------------------------------------|
 | filename          | cw_pathogen_trend_gl2014.csv                                                   |
 | value units       | trend score                                                      |
-| value range       | 0.002221077 to 0.002221077                               |
+| value range       | 0.00222108 to 0.00222108                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
 <p>Trends in percent of population with access to improved sanitation facilities.</p>
@@ -285,7 +285,7 @@ Pesticide consumption as a proxy for trend in chemical pollution
 |-------------------|----------------------------------------------------------------------|
 | filename          | cw_pesticide_trend_gl2014.csv                                                   |
 | value units       | trend score                                                      |
-| value range       | -0.4181218 to -0.4181218                               |
+| value range       | -0.418122 to -0.418122                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
 <p>Statistics on pesticide consumption from the Food and Agricultural Organization (FAO). </p>
@@ -293,7 +293,7 @@ Pesticide consumption as a proxy for trend in chemical pollution
 <p>Data sources:</p>
 
 <ul>
-<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAOÃ¢Â€Â™s statistical database FAOSTAT</a>.</li>
+<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAOí¢Œ<f3><8c><bb>s statistical database FAOSTAT</a>.</li>
 </ul>
 
 
@@ -348,7 +348,7 @@ area of each saup/total OHI reporting region
 |-------------------|----------------------------------------------------------------------|
 | filename          | fis_proparea_saup2rgn_sc2014-area-offshore.csv                                                   |
 | value units       | proportion of area                                                      |
-| value range       | 0.003849105 to 0.2612085                               |
+| value range       | 0.0038491 to 0.261208                               |
 | global extraction | area_offshore: global proportional area were applied to each region after weighting by each region's offshore area. |
 
 <p>Lookup table of Sea Around Us Project regions to Ocean Health Index region identifiers.</p>
@@ -432,7 +432,7 @@ CBD survey: coastal fishing v3
 |-------------------|----------------------------------------------------------------------|
 | filename          | fishing_v3_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.7154551 to 0.7154551                               |
+| value range       | 0.715455 to 0.715455                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) </p>
@@ -453,7 +453,7 @@ CBD survey: ocean fishing v3
 |-------------------|----------------------------------------------------------------------|
 | filename          | fishing_v3_eez_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.7154551 to 0.7154551                               |
+| value range       | 0.715455 to 0.715455                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) </p>
@@ -474,7 +474,7 @@ High bycatch caused by artisanal fishing
 |-------------------|----------------------------------------------------------------------|
 | filename          | fp_art_hb_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.0005913319 to 0.0005913319                               |
+| value range       | 0.000591332 to 0.000591332                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
 <p>The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).</p>
@@ -495,7 +495,7 @@ Low bycatch caused by artisanal fishing
 |-------------------|----------------------------------------------------------------------|
 | filename          | fp_art_lb_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.01683632 to 0.01683632                               |
+| value range       | 0.0168363 to 0.0168363                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
 <p>Modeled low bycatch artisanal fishing using non-destructive practices (Halpern et al. 2008) based on FAO fisheries statistics.</p>
@@ -517,7 +517,7 @@ High bycatch caused by commercial fishing
 |-------------------|----------------------------------------------------------------------|
 | filename          | fp_com_hb_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.009176639 to 0.009176639                               |
+| value range       | 0.00917664 to 0.00917664                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
 <p>Modeled destructive commercial fishing practices by 5 different gear types (Halpern et al. 2008).</p>
@@ -538,7 +538,7 @@ Low bycatch caused by commercial fishing
 |-------------------|----------------------------------------------------------------------|
 | filename          | fp_com_lb_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.01246944 to 0.01246944                               |
+| value range       | 0.0124694 to 0.0124694                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
 <p>Modeled least destructive commercial fishing practices by 2 different gear types (Halpern et al. 2008).</p>
@@ -580,7 +580,7 @@ Fisheries weighting factor
 |-------------------|----------------------------------------------------------------------|
 | filename          | fp_wildcaught_weight_gl2014.csv                                                   |
 | value units       | value                                                      |
-| value range       | 0.7739033 to 0.7739033                               |
+| value range       | 0.773903 to 0.773903                               |
 | global extraction | equal: global weights were applied equally to all regions.  |
 
 <p>Proportion of wild caught fisheries yield to mariculture yield, based on FAO fisheries statistics.</p>
@@ -601,7 +601,7 @@ Habitat extent
 |-------------------|----------------------------------------------------------------------|
 | filename          | hab_extent_gl2014.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 114.3958 to 19309.3                               |
+| value range       | 114.396 to 19309.3                               |
 | global extraction | raster | area_offshore:  |
 
 <p>Modeled combined habitat extent</p>
@@ -646,7 +646,7 @@ Habitat health trend
 |-------------------|----------------------------------------------------------------------|
 | filename          | hab_trend_gl2014.csv                                                   |
 | value units       | trend score                                                      |
-| value range       | -1 to 0.006092558                               |
+| value range       | -1 to 0.00609256                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
 <p>Modeled combined habitat health trend</p>
@@ -661,7 +661,7 @@ CBD survey: habitat
 |-------------------|----------------------------------------------------------------------|
 | filename          | habitat_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.8181818 to 0.8181818                               |
+| value range       | 0.818182 to 0.818182                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) </p>
@@ -682,7 +682,7 @@ CBD survey: coastal habitat
 |-------------------|----------------------------------------------------------------------|
 | filename          | habitat_combo_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.8126826 to 0.8126826                               |
+| value range       | 0.812683 to 0.812683                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) </p>
@@ -703,7 +703,7 @@ CBD survey: ocean habitat
 |-------------------|----------------------------------------------------------------------|
 | filename          | habitat_combo_eez_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.8126826 to 0.8126826                               |
+| value range       | 0.812683 to 0.812683                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) </p>
@@ -724,7 +724,7 @@ Coastal population density as a proxy for intertidal habitat destruction
 |-------------------|----------------------------------------------------------------------|
 | filename          | hd_intertidal_sc2014-popn-inland25km.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.0008845849 to 0.03510029                               |
+| value range       | 0.000884585 to 0.00426075                               |
 | global extraction | population_inland25km: global intertidal pressures were applied to each region after weighting by each region's coastal population. |
 
 <p>Coastal population, defined as the total population inland of 10 miles, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.</p>
@@ -830,7 +830,7 @@ GDP
 |-------------------|----------------------------------------------------------------------|
 | filename          | le_gdp_sc2014-popn-inland25km.csv                                                   |
 | value units       | 2010 USD                                                      |
-| value range       | 999283669 to 134976538914                               |
+| value range       | 999284000 to 16384500000                               |
 | global extraction | population_inland25km: global GDP data were applied to each region after weighting by each region's coastal population. |
 
 <p>Gross Domestic Product (GDP) data (reported in 2012 US dollars) from The World Bank.</p>
@@ -851,7 +851,7 @@ Jobs
 |-------------------|----------------------------------------------------------------------|
 | filename          | le_jobs_sector_year_gl2014.csv                                                   |
 | value units       | jobs                                                      |
-| value range       | 0 to 79745.18                               |
+| value range       | 0 to 79745.2                               |
 | global extraction | equal: global trends were applied equally to each region.  |
 
 <p>gapfilled</p>
@@ -896,7 +896,7 @@ Unemployment
 |-------------------|----------------------------------------------------------------------|
 | filename          | le_unemployment_gl2014.csv                                                   |
 | value units       | percent unemployed                                                      |
-| value range       | 7.140466 to 15.00488                               |
+| value range       | 7.14047 to 15.0049                               |
 | global extraction | equal: global unemployment percentages were applied equally to each region.  |
 
 <p>gapfilled</p>
@@ -911,7 +911,7 @@ Wages
 |-------------------|----------------------------------------------------------------------|
 | filename          | le_wage_sector_year_gl2014.csv                                                   |
 | value units       | 2010 USD                                                      |
-| value range       | 307.6993 to 110417.9                               |
+| value range       | 307.699 to 110418                               |
 | global extraction | equal: global wages were applied equally to each region.  |
 
 <p>gapfilled</p>
@@ -926,7 +926,7 @@ Modeled Livelihoods & Economies data
 |-------------------|----------------------------------------------------------------------|
 | filename          | le_workforcesize_adj_sc2014-popn-inland25km.csv                                                   |
 | value units       | jobs                                                      |
-| value range       | 116406 to 9355763                               |
+| value range       | 116406 to 1135680                               |
 | global extraction | population_inland25km: global workforce data were applied to each region after weighting by each region's coastal population. |
 
 <p>adjusted workforce size</p>
@@ -941,7 +941,7 @@ GCI: competitiveness in achieving sustained economic prosperity
 |-------------------|----------------------------------------------------------------------|
 | filename          | li_gci_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.5985714 to 0.5985714                               |
+| value range       | 0.598571 to 0.598571                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Global Competitiveness Index (GCI) scores from the World Economic Forum.</p>
@@ -962,7 +962,7 @@ Sector evenness as a measure of economic diversity
 |-------------------|----------------------------------------------------------------------|
 | filename          | li_sector_evenness_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.002265717 to 0.002265717                               |
+| value range       | 0.00226572 to 0.00226572                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Shannon&#39;s Diversity Index calculated sector evenness based on the total number of sectors and the proportion of jobs belonging to any sector.</p>
@@ -975,9 +975,9 @@ Coastal protected areas inland 1km
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | lsp_prot_area_inland1km_gl2014.csv                                                   |
+| filename          | lsp_prot_area_inland1km_placeholder.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 1 to 456                               |
+| value range       | 10 to 10                               |
 | global extraction | raster | area_inland1km:  |
 
 <p>Coastal protected areas inland to 1km from the UN WDPA. </p>
@@ -985,7 +985,7 @@ Coastal protected areas inland 1km
 <p>Data sources:</p>
 
 <ul>
-<li>United Nations - World Conservation Monitoring CentreÃ¢Â€Â™s World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
+<li>United Nations - World Conservation Monitoring Centreí¢Œ<f3><8c><bb>s World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
 </ul>
 
 
@@ -996,9 +996,9 @@ Coastal marine protected areas offshore 3km
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | lsp_prot_area_offshore3nm_gl2014.csv                                                   |
+| filename          | lsp_prot_area_offshore3nm_placeholder.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 1 to 954                               |
+| value range       | 10 to 10                               |
 | global extraction | raster | area_offshore3nm:  |
 
 <p>Coastal protected areas offshore to 3nm from the UN WDPA. </p>
@@ -1006,7 +1006,7 @@ Coastal marine protected areas offshore 3km
 <p>Data sources:</p>
 
 <ul>
-<li>United Nations - World Conservation Monitoring CentreÃ¢Â€Â™s World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
+<li>United Nations - World Conservation Monitoring Centreí¢Œ<f3><8c><bb>s World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
 </ul>
 
 
@@ -1019,7 +1019,7 @@ Coastal population inland 25 kilometers
 |-------------------|----------------------------------------------------------------------|
 | filename          | mar_coastalpopn_inland25km_sc2014-raster.csv                                                   |
 | value units       | people                                                      |
-| value range       | 43627.86 to 2354382                               |
+| value range       | 43627.9 to 278632                               |
 | global extraction | raster: spatial data was extracted for each region.  |
 
 <p>Coastal population, defined as the total population inland of 25 kilometers, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.</p>
@@ -1062,7 +1062,7 @@ Mariculture harvest
 |-------------------|----------------------------------------------------------------------|
 | filename          | mar_harvest_tonnes_sc2014-area-offshore3nm.csv                                                   |
 | value units       | tons                                                      |
-| value range       | 0 to 4235.457                               |
+| value range       | 0 to 2570.64                               |
 | global extraction | area_offshore_3nm: global mariculture harvest (tonnes) data were applied to each region after weighting by each region's offshore area to 3nm.  |
 
 <p>Mariculture harvest from the FAO. </p>
@@ -1091,7 +1091,7 @@ Mariculture sustainability score
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesÃ¢Â€Â™ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesÃ¢Â€Â™ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28Ã¢Â€Â“56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesí¢Œ<f3><8c><bb> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesí¢Œ<f3><8c><bb> Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28í¢Œ<f3><8c><f1>56.</li>
 </ul>
 
 
@@ -1119,7 +1119,7 @@ CBD survey: mariculture
 |-------------------|----------------------------------------------------------------------|
 | filename          | mariculture_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.7083333 to 0.7083333                               |
+| value range       | 0.708333 to 0.708333                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) </p>
@@ -1148,7 +1148,7 @@ CBD survey: mariculture
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesÃ¢Â€Â™ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesÃ¢Â€Â™ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28Ã¢Â€Â“56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesí¢Œ<f3><8c><bb> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesí¢Œ<f3><8c><bb> Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28í¢Œ<f3><8c><f1>56.</li>
 </ul>
 
 
@@ -1161,7 +1161,7 @@ Areas of observed blast (dynamite) fishing
 |-------------------|----------------------------------------------------------------------|
 | filename          | np_blast_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.02502995 to 0.02502995                               |
+| value range       | 0.0250299 to 0.0250299                               |
 | global extraction | equal: global scores were applied equally to each region.  |
 
 <p>The presence of destructive artisanal blast fishing (Reefs at Risk Revisited).</p>
@@ -1201,9 +1201,9 @@ Ratio of product peak harvest value (in 2010 USD) divided by sum of all product 
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | np_harvest_product_weight_gl2014.csv                                                   |
+| filename          | np_harvest_product_weight_placeholder.csv                                                   |
 | value units       | score                                                      |
-| value range       | 0.001822333 to 0.9153164                               |
+| value range       | 0.2 to 0.2                               |
 | global extraction | equal: global weights were applied equally to each region.  |
 
 <p>Ratio of harvest of of six marine products (coral, fish oil, seaweed and plants, shells, sponges, ornamental fish) from FAO.</p>
@@ -1224,7 +1224,7 @@ Harvest yield of marine natural products, smoothed
 |-------------------|----------------------------------------------------------------------|
 | filename          | np_harvest_tonnes_sc2014-area-offshore3nm.csv                                                   |
 | value units       | metric tonnes                                                      |
-| value range       | 0 to 90.88585                               |
+| value range       | 0 to 55.1617                               |
 | global extraction | area_offshore_3nm: global harvest (tonnes) was applied to each region after weighting by each region's offshore area to 3nm.  |
 
 <p>Yield in metric tonnes of six marine products (coral, fish oil, seaweed and plants, shells, sponges, ornamental fish) from FAO.</p>
@@ -1266,7 +1266,7 @@ Harvest value of marine natural products, smoothed
 |-------------------|----------------------------------------------------------------------|
 | filename          | np_harvest_usd_gl2014.csv                                                   |
 | value units       | 2010 USD                                                      |
-| value range       | 0 to 10422.25                               |
+| value range       | 0 to 10422.2                               |
 | global extraction | equal: global harvest (usd), used as a weighting score, was applied equally to all regions.  |
 
 <p>Value in 2010 US dollars of six marine products (coral, fish oil, seaweed and plants, shells, sponges, ornamental fish) from FAO.</p>
@@ -1308,7 +1308,7 @@ Ocean-based chemical pollution
 |-------------------|----------------------------------------------------------------------|
 | filename          | po_chemicals_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.05362803 to 0.05362803                               |
+| value range       | 0.053628 to 0.053628                               |
 | global extraction | raster: spatial data was extracted for each region.  |
 
 <p>Modeled ocean-based chemical pollution from commercial shipping traffic and ports and harbors (Halpern et al. 2008).</p>
@@ -1329,7 +1329,7 @@ Land-based chemical pollution
 |-------------------|----------------------------------------------------------------------|
 | filename          | po_chemicals_3nm_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.2265693 to 0.2265693                               |
+| value range       | 0.226569 to 0.226569                               |
 | global extraction | raster | equal:  |
 
 <p>Modeled land-based organic pollution at 1km2 resolution (Halpern et al. 2008).</p>
@@ -1392,7 +1392,7 @@ Access to improved sanitation as a proxy for pathogen pollution
 |-------------------|----------------------------------------------------------------------|
 | filename          | po_pathogens_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.3978138 to 0.3978138                               |
+| value range       | 0.397814 to 0.397814                               |
 | global extraction | raster: spatial data was extracted for each region.  |
 
 <p>Percent of population with access to improved sanitation facilities. </p>
@@ -1433,8 +1433,8 @@ Region area of total EEZ ocean
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
 | filename          | rgn_area_sc2014-area.csv                                                   |
-| value units       | km^2                                                      |
-| value range       | 2795.27 to 189693                               |
+| value units       | hectare                                                      |
+| value range       | 18020800 to 34195200                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
 <p>Area of Ocean Health Index regions based on exclusive economic zones (VLIZ 2012). </p>
@@ -1453,9 +1453,9 @@ Region area 1 km inland
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | rgn_area_inland1km_sc2014-area.csv                                                   |
+| filename          | rgn_area_inland1km_placeholder.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 47.7654 to 879.52                               |
+| value range       | 5 to 5                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
 <p>inland area 1 km from shore.</p>
@@ -1468,9 +1468,9 @@ Region area offshore 3nm
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | rgn_area_offshore3nm_sc2014-area.csv                                                   |
+| filename          | rgn_area_offshore3nm_placeholder.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 590.645 to 3346.08                               |
+| value range       | 5 to 5                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
 <p>Area of Ocean Health Index regions to 3nm (VLIZ 2012). </p>
@@ -1592,7 +1592,7 @@ Introduced species as a proxy for genetic escapes
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesÃ¢Â€Â™ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesÃ¢Â€Â™ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28Ã¢Â€Â“56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesí¢Œ<f3><8c><bb> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesí¢Œ<f3><8c><bb> Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28í¢Œ<f3><8c><f1>56.</li>
 </ul>
 
 
@@ -1605,7 +1605,7 @@ Ocean ecological integrity
 |-------------------|----------------------------------------------------------------------|
 | filename          | species_diversity_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.8516505 to 0.8516505                               |
+| value range       | 0.85165 to 0.85165                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Marine species diversity as a proxy for ecological integrity: ocean (IUCN).</p>
@@ -1626,7 +1626,7 @@ Coastal ecological integrity
 |-------------------|----------------------------------------------------------------------|
 | filename          | species_diversity_3nm_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.8938516 to 0.8938516                               |
+| value range       | 0.893852 to 0.893852                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Marine species diversity as a proxy for ecological integrity: coastal (IUCN).</p>
@@ -1647,7 +1647,7 @@ Species lists and IUCN threat categories as a proxy for iconic species status
 |-------------------|----------------------------------------------------------------------|
 | filename          | spp_status_gl2014.csv                                                   |
 | value units       | status score                                                      |
-| value range       | 0.8516505 to 0.8516505                               |
+| value range       | 0.85165 to 0.85165                               |
 | global extraction | equal: global scores were applied equally to each region.  |
 
 <p>International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists.</p>
@@ -1668,7 +1668,7 @@ Species lists and IUCN threat categories as a proxy for iconic species trend
 |-------------------|----------------------------------------------------------------------|
 | filename          | spp_trend_gl2014.csv                                                   |
 | value units       | trend score                                                      |
-| value range       | -0.1894273 to -0.1894273                               |
+| value range       | -0.189427 to -0.189427                               |
 | global extraction | equal: global trends were applied equally to each region.  |
 
 <p>International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists.</p>
@@ -1689,7 +1689,7 @@ Weakness of governance indicated with the WGI
 |-------------------|----------------------------------------------------------------------|
 | filename          | ss_wgi_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.5647622 to 0.5647622                               |
+| value range       | 0.564762 to 0.564762                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
 <p>Inverse of World Governance Indicators (WGI) six combined scores.</p>
@@ -1710,7 +1710,7 @@ CBD survey: tourism
 |-------------------|----------------------------------------------------------------------|
 | filename          | tourism_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.8333333 to 0.8333333                               |
+| value range       | 0.833333 to 0.833333                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) </p>
@@ -1731,7 +1731,7 @@ Total labor force
 |-------------------|----------------------------------------------------------------------|
 | filename          | tr_jobs_total_sc2014-popn-inland25km.csv                                                   |
 | value units       | jobs                                                      |
-| value range       | 116406 to 9355763                               |
+| value range       | 116406 to 1135680                               |
 | global extraction | population_inland25km: global total labor force data were applied to each region after weighting by each region's coastal population. |
 
 <p>Total labor force (number of people 15 years old and older who can supply labor for the production of goods and services) from World Bank assessments.</p>
@@ -1752,7 +1752,7 @@ Direct employment in tourism
 |-------------------|----------------------------------------------------------------------|
 | filename          | tr_jobs_tourism_sc2014-popn-inland25km.csv                                                   |
 | value units       | jobs                                                      |
-| value range       | 1932.582 to 187217.7                               |
+| value range       | 1932.58 to 22726                               |
 | global extraction | population_inland25km: global tourism employee data were applied to each region after weighting by each region's coastal population. |
 
 <p>Direct employment in tourism (WTTC).</p>
@@ -1830,7 +1830,7 @@ Strength of governance indicated with the WGI
 |-------------------|----------------------------------------------------------------------|
 | filename          | wgi_all_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.4352378 to 0.4352378                               |
+| value range       | 0.435238 to 0.435238                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>World Governance Indicators (WGI) six combined scores.</p>
