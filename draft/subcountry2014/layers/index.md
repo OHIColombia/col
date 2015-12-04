@@ -327,7 +327,7 @@ Catch data for each Taxon/FAO/SAUP region averaged across years (1980-2011)
 |-------------------|----------------------------------------------------------------------|
 | filename          | fis_meancatch_gl2014.csv                                                   |
 | value units       | metric tons                                                      |
-| value range       | 8.18e-18 to 4787770                               |
+| value range       | 8.17638e-18 to 4787770                               |
 | global extraction | equal: global mean catch information was applied equally to all regions. |
 
 <p>Mean catch-per-taxon values within each FAO major fishing area.</p>
